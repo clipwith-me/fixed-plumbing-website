@@ -94,20 +94,21 @@ ul { list-style: none; }
 .nav-logo {
   display: flex;
   align-items: center;
-  gap: 10px;
 }
-.nav-logo .logo-text {
-  font-size: 24px;
-  font-weight: 900;
-  letter-spacing: -0.5px;
+.logo-img {
+  height: 48px;
+  width: auto;
+  display: block;
 }
-.nav-logo .logo-text span { color: var(--red); }
-.nav-logo .logo-sub {
-  font-size: 11px;
-  color: #aaa;
-  font-weight: 400;
-  line-height: 1;
-  margin-top: 2px;
+.logo-img-footer {
+  height: 56px;
+  width: auto;
+  display: block;
+  margin-bottom: 14px;
+}
+/* On light backgrounds, invert white→black but keep the red F */
+.logo-img-light {
+  filter: brightness(0) saturate(100%);
 }
 .nav-links {
   display: flex;

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 295 130" width="295" height="130">
+  <!-- Red F -->
+  <text x="2" y="72"
+    font-family="'Arial Black','Franklin Gothic Heavy','Impact',sans-serif"
+    font-weight="900" font-size="76" letter-spacing="-1"
+    fill="#E53935">F</text>
+
+  <!-- White IXED -->
+  <text x="52" y="72"
+    font-family="'Arial Black','Franklin Gothic Heavy','Impact',sans-serif"
+    font-weight="900" font-size="76" letter-spacing="-1"
+    fill="#FFFFFF">IXED</text>
+
+  <!-- Wrench horizontal bar (under/after FIXED) -->
+  <line x1="214" y1="80" x2="265" y2="80"
+    stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Wrench open head (two tines pointing left) -->
+  <line x1="214" y1="74" x2="214" y2="87"
+    stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Wrench corner: 90-degree bend turning down -->
+  <path d="M 265 80 Q 276 80 276 91"
+    stroke="#FFFFFF" stroke-width="6" fill="none" stroke-linecap="round"/>
+
+  <!-- Vertical stem -->
+  <line x1="276" y1="91" x2="276" y2="103"
+    stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Water drop teardrop -->
+  <path d="M 276 103 C 268 111 268 126 276 126 C 284 126 284 111 276 103 Z"
+    fill="#FFFFFF"/>
+</svg>
